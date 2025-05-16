@@ -13,9 +13,9 @@ end
 config.background = {
   {
     source = {
-     -- File = '~/Pictures/katana-wallhaven.jpg',
-	File = wezterm.home_dir .. '/Pictures/katana-wallhaven.jpg',
+	    File = wezterm.home_dir .. '/Pictures/katana-wallhaven.jpg',
     },
+    width = '100%',
     hsb = {
       brightness = 0.1,
       hue = 1.0,
